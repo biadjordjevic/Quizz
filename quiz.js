@@ -10,10 +10,8 @@ let pontos = valor1 + valor2 + valor3;
 
 
 
-if (valor1 === 0 || valor2 === 0 || valor3 === 0) {
-    alert('Responda todas as perguntas antes de obter o resultado');
-    
-}
+
+
 if (pontos === 6) {
     alert('Parabéns! Você alcançou a pontuação máxima! :D')
     document.getElementById('pontuacao').value = 3;
@@ -31,6 +29,10 @@ else if(pontos == 5){
 else if(pontos == 3){
     alert('Quiz Finalizado! Confira sua pontuação e continue tentando :)')
     document.getElementById('pontuacao').value = 0;
+}
+else if (valor1 === 0 && valor2 === 0 && valor3 === 0) {
+    alert('Responda todas as perguntas antes de obter o resultado');
+    
 }
 
 }

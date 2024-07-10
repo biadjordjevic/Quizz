@@ -89,7 +89,7 @@ body{
     justify-content:space-evenly;
     align-items: center;
     align-content: center;
-   
+    gap: 70px;
    
 }
 
@@ -132,6 +132,10 @@ body{
     justify-content: center;
     gap: 50px;
 
+}
+
+#baixoResultado img {
+    height: 5%;
 }
 
 
