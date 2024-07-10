@@ -1,0 +1,164 @@
+html{
+
+    height: 100%;
+
+}
+
+body{
+
+    height: 100%;
+    margin: 0;
+    background-color: #D5B3A5;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+#container {
+
+ height: 100%;
+    
+
+}
+
+#topoTitulo{
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: auto;
+}
+
+
+
+#meioPerguntas{
+
+    height: 25%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.gap1{
+    width: 50px;
+}
+.gap2{
+    width: 15px;
+}
+
+.span{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+   height: 15%;
+   margin-left: 25%;
+   margin-right: 25%;
+   margin-top: 20px;
+   font-size:x-large;
+    border: 2px  rgb(139, 135, 135); /* Adiciona uma borda preta de 5px ao redor do contêiner */
+    border-radius: 10px;
+    background-color: #D5B3A5;;
+    color: #ddd;
+}
+
+.box{
+    
+    width:20%;
+    height: 80%;
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: x-large;
+    color: #707070;
+    text-align: center
+    
+}
+
+
+
+
+
+#meioLabels{
+
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    align-content: center;
+   
+   
+}
+
+.label{
+    font-size: x-large;
+    color: #ffffff;
+    text-align: center
+}
+
+#meioSelects{
+
+    height: 27%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  
+    padding: 2 50px;
+    color: #b67373;
+    text-align: center
+}
+
+ #selectMenu, #selectMenu2, #selectMenu3{
+    width: 15%;
+    height: 25%;
+    font-size:x-large; 
+    margin: 15px;
+    color: #b67373;
+    text-align: center
+}
+    
+#baixoResultado{
+
+    
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+
+
+#pontuacao{
+    height:40px;
+    width: 50px;
+    background-color: #ffffff;
+    font-size:x-large; 
+    color: #b67373;
+    text-align: center
+}
+
+h1{
+    font-size:xx-large; 
+    color: #ffffff;
+    text-align: center
+}
+
+#botao{
+    width: 200px;
+    height: 50px;
+    font-size: 16px; 
+    padding: 10px; 
+    background-color: rgb(117, 117, 119); 
+    color: #fff; 
+    border: none;
+
+ 
+}

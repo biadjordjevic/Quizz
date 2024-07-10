@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    
+    <!-- DIV Container - Para englobar as outras divs, tamanho total da página -->
+    <div id="container">
+
+        <!-- DIV Topo - Para o título e imagens -->
+        <div id="topoTitulo">
+            <img class="header"  src='images/header (1).png'>
+
+        </div>
+
+
+        <!-- DIV Perguntas - Para os cards de perguntas -->
+        <div id="meioPerguntas">
+            <div class="gap1"></div>
+
+            <div class="box" id="box1"> <span class="span"> pergunta 1</span> <br>Qual dessa músicas NÃO é da cantora Madonna?</div>
+
+            <div class="gap2"> </div>
+
+            <div class="box" id="box2"><span class="span"> pergunta 2</span> <br>pergunta 2</div>
+            <div class="gap2"></div>
+
+            <div class="box" id="box3"><span class="span"> pergunta 2</span> <br> pergunta 3</div>
+
+            <div class="gap1"></div>
+        </div>
+
+
+        <!-- DIV Labels - Para as labels informativas de escolha -->
+        <div id="meioLabels">
+            <div class="gap1"></div>
+            <label class="label"> Escolha sua resposta</label>
+            <div class="gap2"> </div>
+            <br>
+            <label class="label"> Escolha sua resposta</label>
+            <br>
+            <div class="gap2"> </div>
+            <label class="label"> Escolha sua resposta</label>
+            <br>
+          
+
+
+        </div>
+
+
+        <!-- DIV Selects - Para os menus de select com as respostas -->
+        
+        
+        <div id="meioSelects">
+        
+            <select id="selectMenu">
+                
+                <option value="0">Escolha uma opção</option>
+                
+                <option value="1">Material Girl</option>
+                
+                <option value="1">Hung up</option>
+                
+                <option value="2">Telephone</option>
+
+                <option value="1">Life to Tell</option>
+                <br>
+
+            </select>
+           
+                <select id="selectMenu2" name="">
+         
+                    <option value="0">Escolha uma opção</option>
+
+                    <option value="1">opc1</option>
+
+                    <option value="2">opc2</option>
+
+                    <option value="1">opc3</option>
+
+                    <option value="1">opc4</option>
+            
+            
+                </select>
+                
+    <select id="selectMenu3" name="">
+        
+        <option value="0">Escolha uma opção</option>
+
+        <option value="1">opc1</option>
+
+        <option value="1">opc2</option>
+
+        <option value="1">opc3</option>
+
+        <option value="2">opc4</option>
+
+       
+    </select>
+        </div>
+
+
+        <!-- DIV Resultado - Para a pontuação, resultado e botão de gerar pontos -->
+        <div id="baixoResultado">
+            <h1>sua pontuação foi:</h1>
+           <input type="text" id="pontuacao" readonly>
+            <button id="botao" onclick="Finalizar()">Finalizar</button>
+
+        </div>
+
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
